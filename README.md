@@ -7,6 +7,13 @@ This code implements in C++ the Fast Incremental Gaussian Mixture Network (FIGMN
 ### Prerequisites
 
 * g++
+* eigen 3.3.+[(link)](https://eigen.tuxfamily.org/dox/)
+
+## Running the tests
+
+```
+g++ -I include/  *.cpp
+```
 
 ## Authors
 * **Jorge C. Chamby** - *Initial work* - [jchambyd](https://github.com/jchambyd)
